@@ -5,12 +5,12 @@ Se usan tres variables enteras - Numero1, Numero2, Numero3, en las que se leen l
 variables Producto y Suma en las que se calcula, o bien el producto, o bienla suma. El algoritmo que 
 resuelve el problema es el siguiente.*/
 
-#include "main.h"
+#include <stdio.h>
 
 int produc_sum(int a, int b, int c)
 {
-    int producto = 0;
-    int suma = 0;
+    int producto;
+    int suma;
 
     if (a >= 0)
     {
