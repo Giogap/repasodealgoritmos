@@ -9,8 +9,8 @@
 int main(void)
 {
 	int a, b, c;
-	int suma;
-    int producto;
+	int sum;
+    int produc;
 
 	a = 8;
 	b = 5;
@@ -18,11 +18,11 @@ int main(void)
 
     if (a > 0)
     {
-        printf("%d el prducto es\n", producto);
+        printf("%d el prducto es\n", produc);
     }
     else
     {
-        printf("%d la suma es\n", producto);
+        printf("%d la suma es\n", sum);
     }
 	return (0);
 }
