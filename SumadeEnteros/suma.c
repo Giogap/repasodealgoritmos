@@ -11,4 +11,6 @@ int main()
 
     resultado = num1 + num2;
     printf("el rsultado es %d\n", resultado);
+
+    return(0);
 }
